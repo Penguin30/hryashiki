@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Authorization page</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+<!--	<link rel="icon" href="img/favicon/favicon.ico">-->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#CCB6A6">
+	<!-- Custom Browsers Color End -->
+	<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-8">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					  <div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+						  <li class="nav-item active">
+							<a class="nav-link" href="#">Пользователи <span class="sr-only">(current)</span></a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">Контракты</a>
+						  </li>
+						</ul>
+					  </div>
+					</nav>
+				</div>
+				<div class="col-4">
+					<button type="button" class="btn btn-danger">Выход</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section class="auth">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<form class="auth__form">
+					  <div class="form-group">
+						<label for="fieldEmail">Email:</label>
+						<input type="email" class="form-control" id="fieldEmail" aria-describedby="emailHelp" placeholder="Введите email..">
+					  </div>
+					  <div class="form-group">
+						<label for="fieldPassword">Пароль:</label>
+						<input type="password" class="form-control" id="fieldPassword" placeholder="Введите пароль..">
+					  </div>
+					  <button type="submit" class="btn btn-primary">Войти</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
